@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <p class="text-secondary text-center mt-3">ĐIỆN THOẠI CỦA EM</p>
+        </div>
+        <hr>
+        <div class="input">
+            <label>
+                Product Name: <br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="name_phone" placeholder="Product Name" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+            </label>
+            <label>
+                Product Picture: <br>
+                  <div class="input-group">
+                    <input type="file" class="form-control" id="img" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  </div>
+            </label>
+            <label>
+                Product Price: <br>
+                <div class="input-group mb-3">
+                    <input type="number" class="form-control" id="price" placeholder="price" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+        </div>
+        <button type="button" class="btn btn-info" onclick="add(name_phone.value,img.value,price.value)">Add</button>
+        <hr>
+        <div class="content_cart">
+            <b class="fs-4 ms-4">ĐIỆN THOẠI NỔI BẬT NHẤT</b>
+            <b  id="show_cart" class="d-flex"></b>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
