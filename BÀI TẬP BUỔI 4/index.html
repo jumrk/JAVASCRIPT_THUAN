@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÁY TÍNH</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="content">
+            <div class="title">
+                <h3>Calculator</h3>
+            </div>
+            <hr>
+            <div class="show">
+                <p class="show_input" id="show_input"></p>
+            </div>
+            <div class="input_button">
+              <div class="content_input_button">
+                 <div class="calc_row">
+                    <button onclick="fucC()" class="button CE">C</button>
+                    <button onclick="fucDelete()" class="button"><ion-icon name="backspace-outline"></ion-icon></button>
+                    <button onclick="fucOperator('÷')" class="button operator">÷</button> 
+                </div>
+                <div class="calc_row">
+                    <button onclick="fucNumber(7)" class="button">7</button>
+                    <button onclick="fucNumber(8)" class="button">8</button>
+                    <button onclick="fucNumber(9)" class="button">9</button>
+                    <button onclick="fucOperator('x')" class="button operator">x</button>
+                </div>
+                <div class="calc_row">
+                    <button onclick="fucNumber(4)" class="button">4</button>
+                    <button onclick="fucNumber(5)" class="button">5</button>
+                    <button onclick="fucNumber(6)" class="button">6</button>
+                    <button onclick="fucOperator('-')" class="button operator">-</button>
+                </div>
+                <div class="calc_row">
+                    <button onclick="fucNumber(1)" class="button">1</button>
+                    <button onclick="fucNumber(2)" class="button">2</button>
+                    <button onclick="fucNumber(3)" class="button">3</button>
+                    <button onclick="fucOperator('+')" class="button operator">+</button>
+                </div>
+                <div class="calc_row">
+                    <button onclick="fucNumber(0)" class="button zero">0</button>
+                    <button onclick="fucOperator('=')" class="button operator">=</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

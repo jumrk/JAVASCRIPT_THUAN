@@ -1,0 +1,81 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #616E79;
+}
+.content{
+    width: 400px;
+    height: 550px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: #444346;
+    border-radius: 20px;
+}
+.title{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+}
+hr{
+    width: 100%;
+    margin-top: 5px;
+}
+.show{
+    display: grid;
+    justify-content: end;
+    height: 120px;
+}
+.show_input{
+    margin-right: 10px;
+    margin-top: 30px;
+    font-size: 40px;
+    color:white;
+}
+.input_button{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: baseline;
+    height: 100%;
+    margin-top: 50px;
+}
+.content_input_button{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.calc_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.calc_row button{
+    width: 90px;
+    height: 60px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.calc_row button:hover{
+    opacity: 0.5;
+}
+.CE{
+   flex-basis: 49%;
+   background-color: #B3727F;
+}
+.zero{
+    flex-basis: 75%;
+}
+.operator{
+    background-color: #E9917A;
+}
