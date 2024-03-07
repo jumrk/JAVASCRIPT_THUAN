@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="bg-body-secondary">
+            <div class="mt-2 ms-5">
+                <label for="FullName">Fullname_Customers</label><br>
+                <input type="text" name="" id="FullName"><br>
+                <label for="id">Id_Pro</label><br>
+                <input type="text" name="" id="id_pro"><br>
+                <label for="NamePro">Name_Pro</label><br>
+                <input type="text" name="" id="NamePro"><br>
+                <label for="quantity">Quantity_Pro</label><br>
+                <input type="number" name="" id="quantity"><br>
+                <label for="Price">Price_Pro</label><br>
+                <input type="text" name="" id="Price"><br>
+                <div class="mt-2">
+                    <button class="btn btn-danger" onclick="Save(FullName.value,id_pro.value,NamePro.value,quantity.value,Price.value)">Save</button>
+                    <button class="btn btn-danger" onclick="Show()">Show</button>
+                    <button class="btn btn-danger" onclick="Reset()">Reset</button>
+                </div>
+              <div class="mt-2 me-5">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Auto_Increment</th>
+                        <th scope="col">Full Name Customer</th>
+                        <th scope="col">Id Pro</th>
+                        <th scope="col">Quantity Pro</th>
+                        <th scope="col">Price Pro</th>
+                        <th scope="col">Total</th>
+
+                      </tr>
+                    </thead>
+                    <tbody id="result">
+                    </tbody>
+                  </table>
+              </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
