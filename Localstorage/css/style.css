@@ -1,0 +1,45 @@
+.detail{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 94vh;
+    overflow: hidden;
+}
+.background-image {
+    position: absolute;
+    top: -10px; 
+    left: -10px;
+    width: calc(100% + 20px); 
+    height: calc(100% + 20px);
+    background-image: url('https://hanoiairporthotels.vn/media/2056/hanoi_amthuc.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); 
+}
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+    height: 80%;
+}
+.trangchu{
+    height: auto;
+    overflow: hidden;
+    transition: height 1s;
+}
+#input_add{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#button_click{
+    opacity: 1;
+    overflow: hidden;
+    transition: opacity 0.5s
+}
