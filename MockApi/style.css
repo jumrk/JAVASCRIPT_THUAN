@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.Container{
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: -50%;
+    transition: top ease-in-out 0.5s;
+    left: 50%;
+}
+.Container form{
+    padding: 40px;
+    background-color: rgb(199, 200, 201);
+    border-radius: 10px;
+}
+.Container2{
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: -50%;
+    transition: top ease-in-out 0.5s;
+    left: 50%;
+}
+.Container2 form{
+    padding: 40px;
+    background-color: rgb(199, 200, 201);
+    border-radius: 10px;
+}
+.close p{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+    color: rgb(131, 126, 126);
+    cursor: pointer;
+}
+.b{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(131, 126, 126);
+}
